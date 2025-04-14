@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Défi Rébus - Journée SST</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+            background: linear-gradient(to right, #dce35b, #45b649);
+            margin: 0;
+            padding: 0;
+        }
+
+        .logo {
+            position: absolute;
+            top: 20px;
+            left: 20px;
+            width: 220px;
+            height: auto;
+            z-index: 10;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 100px auto 50px auto;
+            background-color: #ffffff;
+            padding: 40px;
+            border-radius: 15px;
+            box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+            text-align: center;
+            position: relative;
+            transition: all 0.3s ease-in-out;
+        }
+
+        h1 {
+            font-size: 45px;
+            color: #333;
+            margin-bottom: 18px;
+        }
+
+        h2 {
+            font-size: 20px;
+            color: #666;
+            margin-bottom: 50px;
+        }
+
+        p {
+            font-size: 18px;
+            line-height: 1.7;
+            color: #555;
+            text-align: left;
+            margin: 15px 0;
+            padding-left: 10px;
+            transition: background-color 0.2s ease;
+        }
+
+        p:hover {
+            background-color: #eef6eb;
+            border-radius: 8px;
+        }
+
+        .icon {
+            color: #4CAF50;
+            margin-right: 18px;
+            font-size: 34px;
+            vertical-align: middle;
+        }
+
+        button {
+            margin-top: 40px;
+            padding: 18px 45px;
+            font-size: 20px;
+            background-color: #ff5722;
+            color: white;
+            border: none;
+            border-radius: 50px;
+            cursor: pointer;
+            transition: transform 0.2s ease, background-color 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        button:hover {
+            background-color: #e64a19;
+            transform: scale(1.05);
+            box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+        }
+
+        @media (max-width: 600px) {
+            .container {
+                padding: 25px;
+            }
+
+            h1 {
+                font-size: 30px;
+            }
+
+            h2 {
+                font-size: 18px;
+            }
+
+            p {
+                font-size: 16px;
+            }
+
+            .logo {
+                width: 120px;
+                top: 15px;
+                left: 15px;
+            }
+
+            button {
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <img class="logo" src="medipole-logo.png" alt="Logo Médipôle de Savoie">
+
+    <div class="container">
+        <h1><i class="fas fa-brain icon"></i>Défi Rébus</h1>
+        <h2>Journée Santé et Sécurité au Travail (28 avril 2025)</h2>
+
+        <p><i class="fas fa-calendar-day icon"></i>À l’occasion de la journée Santé et Sécurité au Travail, participez à un défi rébus !</p>
+        <p><i class="fas fa-puzzle-piece icon"></i><strong>3 rébus à résoudre</strong> (seul ou en petit groupe)</p>
+        <p><i class="fas fa-user-check icon"></i>Inscrivez un nom et prénom <strong>COMPET</strong> pour valider votre participation.</p>
+        <p><i class="fas fa-random icon"></i><strong>Tirage au sort</strong> parmi les bonnes réponses.</p>
+        <p><i class="fas fa-gift icon"></i><strong>À gagner</strong> : une boîte de chocolats 🍫 pour les bonnes réponses !</p>
+        <p><i class="fas fa-ban icon"></i><strong>Une seule participation</strong> par personne/équipe. Pas de doublon, Triche = Exclusion !</p>
+        <p><i class="fas fa-clock icon"></i>Vous avez jusqu'au <strong>30 avril</strong> pour participer</p>
+
+        <button onclick="window.location.href='https://www.google.com';">
+            <i class="fas fa-arrow-circle-right"></i> Participe au défi ici
+        </button>
+    </div>
+
+</body>
+</html>
